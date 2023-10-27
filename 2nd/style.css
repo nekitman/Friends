@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Nosifer&family=Titillium+Web:wght@600&display=swap');
+*{
+  margin:0;
+  padding:0;
+
+}
+#header {
+  width: 100%;
+  height: 70px;
+  background-color: #0d0a0a;
+
+
+
+}
+#title {
+color: #fff;
+font-family: 'Cabin Sketch', sans-serif;
+height: 40px;
+width: 100%;
+text-align: center;
+font-size: 45px;
+position: relative;
+top: 10px;
+letter-spacing: 5px;
+}
+#back {
+  background-image:url("images/back.jpg");
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index:1;
+}
+#first img, #second img, #third img {
+  border: 2px solid white;
+}
+#first img, #first  {
+  height: 500px;
+  width: 350px;
+  position: relative;
+  top: 20px;
+  left:62px;
+
+}
+#second img, #second {
+  height: 500px;
+  width: 350px;
+  position: relative;
+  left:242px;
+  bottom:230px;
+
+
+}
+#third img, #third {
+  height: 500px;
+  width: 350px;
+  position: relative;
+  left:422px;
+  bottom: 480px;
+}
+#third img:hover {
+  height: 600px;
+  width: 450px;
+  bottom:530px;
+}
+#second img:hover {
+  height: 600px;
+  width: 450px;
+  bottom: 280px;
+  z-index: 100;
+  left: 192px;
+}
+#first img:hover {
+  height: 600px;
+  width: 450px;
+  z-index: 100;
+  left:-38px;
+  top:-30px
+}
